@@ -46,13 +46,23 @@
     25. What do we use the change the spacing between lines? line-height property
     26. What do we use to change the spacing between letters? letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: uppercase (or lowercase);
-    28. How do I add a 1px border around my div that is dotted and black? 
+    28. How do I add a 1px border around my div that is dotted and black? .div { border: 1px dotted black }
     29. How do I select everything on the page? * 
     30. How do I write a comment in CSS? /* */
     31. How do I find out what file I am in, when I am using the command line? pwd
     32. Using the command line - how do I see a list of files/folders in my current folder? ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? rm file; this removes it for good.
-    34. Why should I use version control? 
-    35. How often should I commit to github? about every hour or so or half an hour or so or when taking a break
-    36. What is the command we would use to push our repo up to github? 
+    34. Why should I use version control? To keep tracks of changes and help the team.
+    35. How often should I commit to github? about every hour or so or half an hour or so or when taking a break. Every minutes if possible or everytime code is changed or made.
+    36. What is the command we would use to push our repo up to github?  git push origin BRANCH
     37. Walk me through Lambda's git flow. 
+           1. Create repo by forking. 
+           2. Add the Team Lead.
+           3. Clone.
+           4. Create Branch with git checkout -b "meaningful stuff related to the code".
+           5. Add the git when done with git add.
+           6. Commit the git with git commit -m "meaning context related to the edited code".
+           7. Push the code with git push origin "the meaningful stuff related to the code".
+           8. Then create a pull request.
+           9. Invite the Team Lead for review.
+           10. The Team Lead review and merge when done.
